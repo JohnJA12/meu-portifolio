@@ -1,5 +1,6 @@
 import styes from './Card.module.css'
 import { useState } from 'react'
+
 import ButttonB from './ButtonB'
 
 
@@ -15,6 +16,8 @@ function Card({img,title,tech, description, repo, site}){
         setInfo(false)
     }
 
+
+
     return(
         <div onMouseLeave={InfoOff} className={styes.card}>
             <a onMouseEnter={InfoOn} href= {site}>
@@ -22,6 +25,7 @@ function Card({img,title,tech, description, repo, site}){
             </a>
 
             {info == true &&(
+
             <section>
                 <h3>{title}</h3>
                 <p><strong> Tecnologia: </strong> {tech}</p>
