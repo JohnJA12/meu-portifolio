@@ -1,3 +1,3 @@
-Link do Site : https://meu-portifolio-joao.vercel.app/
+Link do Site :
 
 Segue meu portifólio profissional, contendo descrições sobre meus trabalhos!
